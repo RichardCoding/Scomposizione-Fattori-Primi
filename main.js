@@ -93,7 +93,12 @@ function divx7(numero) {
 
 function finito(numero) {
 	console.log("Fattorizzazione riuscita, risultrato = " + numero)
-	// console.log("2^"+d2+", 3^"+d3+", 5^"+d5+", 7^"+d7)
+	
+	document.getElementById('ilris').innerHTML = "Il risultato &egrave : "
 	document.getElementById('risultato').innerHTML = "2^"+d2+", 3^"+d3+", 5^"+d5+", 7^"+d7
-
+	d2 = 0;
+	d3 = 0;
+	d5 = 0;
+	d7 = 0;
+	numero = 0;
 }
