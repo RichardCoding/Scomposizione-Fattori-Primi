@@ -11,21 +11,25 @@ header {
 body input {
 	position: relative;
 	font-size: 18px;
-	left: 50%;
+	left: 35%;
+	border-radius: 30px;	
 	font-family: 'Roboto', sans-serif;
 	background: #B0BEC5;
 	border: 1px solid #B0BEC5;
+	padding-left: 10px;
 	padding-right: 10px;
-	width: 120px;
+	width: 150px;
 	height: 30px;
 	outline: none;
 }
 
 body button {
+	position: relative;
 	width: 70px;
 	height: 70px;
+	left: 35%;	
 	font-size: 16px;
-	border-radius: 60px;
+	border-radius: 60px;	
 	border: 1px solid #78909C;
 	background: #78909C;	
 	outline: none;
@@ -37,3 +41,18 @@ body div.cose {
 	padding-top: 5px;
 	padding-left: 140px;
 }
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 42%;	
+}
+
+header h1 {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	left: 35%;
+	margin-top: 5px;
+}
+
+/* Aggiungere footer e icona. */
